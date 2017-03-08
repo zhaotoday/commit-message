@@ -2,8 +2,7 @@
 - [Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
 
 ## commitizen
-
-安装：
+一个撰写合格 Commit message 的工具。
 ```bash
 npm install -g commitizen
 ```
@@ -13,9 +12,24 @@ npm install -g commitizen
 commitizen init cz-conventional-changelog --save --save-exact
 ```
 
-提交：
+## validate-commit-msg
+用于检查 Node 项目的 Commit message 是否符合格式。
+```bash
+npm install --save-dev validate-commit-msg
+```
+
+## husky
+用于处理 git 提交时的自动化处理。
+```bash
+npm install husky --save-dev
+```
+
+## commit
+原来：
+```bash
+git commit -m "some information"
+```
+现在：
 ```bash
 git cz
 ```
-
-## validate-commit-msg
