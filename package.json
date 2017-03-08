@@ -4,7 +4,7 @@
   "description": "commit message guide",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "precommit": "validate-commit-msg"
   },
   "repository": {
     "type": "git",
@@ -22,32 +22,12 @@
   "homepage": "https://github.com/zhaotoday/commit-message#readme",
   "devDependencies": {
     "cz-conventional-changelog": "^2.0.0",
+    "husky": "^0.13.2",
     "validate-commit-msg": "^2.11.2"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
-    },
-    "validate-commit-msg": {
-      "types": [
-        "feat",
-        "fix",
-        "docs",
-        "style",
-        "refactor",
-        "perf",
-        "test",
-        "chore",
-        "revert"
-      ],
-      "warnOnFail": false,
-      "maxSubjectLength": 100,
-      "subjectPattern": ".+",
-      "subjectPatternErrorMsg": "subject does not match subject pattern!",
-      "helpMessage": ""
-    },
-    "ghooks": {
-      "commit-msg": "validate-commit-msg"
     }
   }
 }
