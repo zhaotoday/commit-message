@@ -1,0 +1,31 @@
+{
+  "name": "commit-message",
+  "version": "1.0.0",
+  "description": "commit message guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaotoday/commit-message.git"
+  },
+  "keywords": [
+    "commit",
+    "message"
+  ],
+  "author": "zhaotoday",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaotoday/commit-message/issues"
+  },
+  "homepage": "https://github.com/zhaotoday/commit-message#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
