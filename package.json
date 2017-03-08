@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/zhaotoday/commit-message#readme",
   "devDependencies": {
-    "cz-conventional-changelog": "^2.0.0"
+    "cz-conventional-changelog": "^2.0.0",
+    "validate-commit-msg": "^2.11.2"
   },
   "config": {
     "commitizen": {
