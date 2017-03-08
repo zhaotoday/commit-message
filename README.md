@@ -1,7 +1,7 @@
 ## 参考
 - [Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
 
-## 安装 npm 包
+## 安装包
 
 #### commitizen
 一个撰写合格 Commit message 的工具。
@@ -25,12 +25,7 @@ npm install --save-dev validate-commit-msg
 npm install husky --save-dev
 ```
 
-## git commit
-原来：
-```bash
-git commit -m "some information"
-```
-现在：
+## 命令
 ```bash
 git cz
 ```
