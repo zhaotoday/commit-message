@@ -28,10 +28,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     },
-    "config": {
-      "ghooks": {
-        "commit-msg": "./validate-commit-msg.js"
-      }
+    "ghooks": {
+      "commit-msg": "./validate-commit-msg.js"
     }
   }
 }
