@@ -20,7 +20,7 @@ npm install --save-dev validate-commit-msg
 ```
 
 #### husky
-用于处理 git 提交时的自动化处理。
+git 提交时的自动化处理。
 ```bash
 npm install husky --save-dev
 ```
