@@ -21,7 +21,13 @@ $ commitizen init cz-conventional-changelog --save --save-exact
 ```
 
 ```bash
+# 替代 git commit 命令
 $ git cz
+```
+
+```bash
+# 生成 Change log
+$ npm run changelog
 ```
 
 ## 相关包

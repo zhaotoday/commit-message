@@ -4,7 +4,8 @@
   "description": "commit message guide",
   "main": "index.js",
   "scripts": {
-    "commitmsg": "validate-commit-msg"
+    "commitmsg": "validate-commit-msg",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0"
   },
   "repository": {
     "type": "git",
