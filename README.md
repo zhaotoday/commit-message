@@ -20,6 +20,10 @@ $ npm install -g commitizen conventional-changelog-cli
 $ commitizen init cz-conventional-changelog --save --save-exact
 ```
 
+```bash
+$ git cz
+```
+
 ## 相关包
 #### commitizen
 一个撰写合格 Commit message 的工具。
@@ -40,10 +44,5 @@ $ conventional-changelog -p angular -i CHANGELOG.md -w -r 0
 #### husky
 git 提交时的自动化处理。
 
-## conventional-changelog-cli
+#### conventional-changelog-cli
 生成 Change log 的工具。
-
-## 命令
-```bash
-git cz
-```
