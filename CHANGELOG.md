@@ -2,6 +2,11 @@
 # 1.0.0 (2017-03-12)
 
 
+### Bug Fixes
+
+* just show a fix example ([f46e4b6](https://github.com/zhaotoday/commit-message/commit/f46e4b6)), closes [#123](https://github.com/zhaotoday/commit-message/issues/123) [#234](https://github.com/zhaotoday/commit-message/issues/234)
+
+
 ### Features
 
 * aa ([0a512a1](https://github.com/zhaotoday/commit-message/commit/0a512a1))

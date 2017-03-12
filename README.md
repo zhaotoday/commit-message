@@ -1,6 +1,23 @@
 ## 参考
 - [Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
 
+## 使用
+```bash
+$ git clone https://github.com/zhaotoday/commit-message.git
+```
+```bash
+$ npm install
+```
+```bash
+$ npm install -g commitizen
+```
+```bash
+# npm install 后可不执行该命令
+$ npm install -g conventional-changelog-cli
+```
+```
+bash
+```
 ## 安装包
 
 #### commitizen
