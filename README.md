@@ -38,7 +38,7 @@ $ npm run changelog
 用于检查 Node 项目的 Commit message 是否符合格式。
 
 ```bash
-# 不会覆盖以前的 Change log，只会在CHANGELOG.md的头部加上自从上次发布以来的变动
+# 不会覆盖以前的 Change log，只会在 CHANGELOG.md 的头部加上自从上次发布以来的变动
 $ conventional-changelog -p angular -i CHANGELOG.md -w
 ```
 
