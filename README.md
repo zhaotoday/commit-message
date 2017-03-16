@@ -1,5 +1,6 @@
 ## 参考
 - [Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
+- [我的提交信息规范](http://yanhaijing.com/git/2016/02/17/my-commit-message/)
 
 ## 使用
 ```bash
@@ -23,11 +24,27 @@ $ commitizen init cz-conventional-changelog --save --save-exact
 ```bash
 # 替代 git commit 命令
 $ git cz
+# or
+$ git commit
 ```
 
 ```bash
 # 生成 Change log
 $ npm run changelog
+```
+
+## 举个栗子
+```
+feat: 添加了分享功能
+
+给每篇博文添加了分享功能
+
+- 添加分享到微博功能
+- 添加分享到微信功能
+- 添加分享到朋友圈功能
+
+Issue #1, #2
+Close #1
 ```
 
 ## 相关包
